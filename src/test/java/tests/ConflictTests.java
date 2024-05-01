@@ -9,7 +9,6 @@ public class ConflictTests {
     public void test1(){
         int a = 5;
         int b = 10;
-    login/feature
         int sum = (a+b) * 2;
 
         System.out.println("Sum: " + sum);
@@ -17,6 +16,6 @@ public class ConflictTests {
     @Test
     public void test2(){
         String message = "Welcome to USA - the land of opportunities!";
-        Assert.assertTrue(message.toLowerCase().contains("usa"));
+        Assert.assertTrue(message.toLowerCase().contains("land"));
     }
 }
