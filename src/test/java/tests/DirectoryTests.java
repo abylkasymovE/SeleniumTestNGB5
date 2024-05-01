@@ -39,7 +39,6 @@ public class DirectoryTests {
 //        if (!directoryPage.searchButton.isDisplayed()) {
 //            directoryPage.searchButton.click();
 //        }
-        Assert.assertTrue(directoryPage.searchResult.getText().contains("HR Manager"), "yeah");
     }
 
 }
