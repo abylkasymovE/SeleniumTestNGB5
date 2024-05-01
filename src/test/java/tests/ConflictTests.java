@@ -9,7 +9,9 @@ public class ConflictTests {
     public void test1(){
         int a = 5;
         int b = 10;
+    login/feature
         int sum = (a+b) * 2;
+
         System.out.println("Sum: " + sum);
     }
     @Test
